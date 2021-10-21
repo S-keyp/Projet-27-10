@@ -1,0 +1,49 @@
+.dark-blue{
+    background-color: #00155A;
+}
+
+.orange{
+    background-color: #FA5716;
+}
+
+.bleu{
+    background-color: #025CBB;
+}
+
+.blanc{
+    background-color: #F6F6F6;
+}
+
+.vert{
+    background-color: #529E30;
+}
+
+.gradien-orange{
+    background: linear-gradient(to bottom right, #d15c0b 0, #db6f0d 25%, #db6f0d 75%, #d15c0b 100%);
+}
+
+.orange-leger{
+    background-color: #f5872d;
+}
+
+.autre-orange{
+    background-color: #f5812b;
+}
+
+.bleu-leger{
+    background-color: #F2F7FF;
+}
+body{
+    background-color: #fff;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+}
+
