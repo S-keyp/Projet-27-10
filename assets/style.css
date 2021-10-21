@@ -1,27 +1,30 @@
 @font-face {
     font-family: "Muli";
-    src: url("/assets/fonts/muli/Muli-Light.ttf") format("ttf");
+    src: url(/assets/fonts/Muli.ttf);
 }
 
 @font-face {
     font-family: "Meta";
-    src: url("/assets/fonts/Meta/meta-normal.ttf") format("ttf");
+    src: url(/assets/fonts/Meta/meta-normal.ttf);
 }
 
 @font-face {
     font-family: "Neo";
-    src: url("/assets/fonts/NeoSans/NeoSansStdRegular.otf") format("otf");
+    src: url(/assets/fonts/NeoSans/NeoSansStdRegular.otf);
 }
 
 @font-face {
     font-family: "Teko";
-    src: url("/assets/fonts/Teko/Teko-Regular.ttf") format("ttf");
+    src: url(/assets/fonts/Teko/Teko-Regular.ttf);
 }
 
-
+p{
+    margin-left: 60px;
+    font-size: 1.5rem;
+}
 
 .fontMuli {
-    font-family: "Muli";
+    font-family: Muli;
 }
 
 .fontHelvetica {
@@ -29,15 +32,15 @@
 }
 
 .fontMeta {
-    font-family: "Meta";
+    font-family: Meta;
 }
 
 .fontNeo {
-    font-family: "Neo";
+    font-family: Neo;
 }
 
 .fontTeko {
-    font-family: "Teko";
+    font-family: Teko;
 }
 
 
@@ -90,8 +93,8 @@ body{
 }
 
 .box{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .cta.first, .cta.second, .cta.third{
@@ -132,9 +135,5 @@ img{
     padding: 15px;   
     border-radius: 5px 50px;
     color: #fff;
-
-}
-
-.fourth{
 
 }
