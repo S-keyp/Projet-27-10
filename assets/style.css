@@ -1,3 +1,47 @@
+@font-face {
+    font-family: "Muli";
+    src: url("/assets/fonts/muli/Muli-Light.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Meta";
+    src: url("/assets/fonts/Meta/meta-normal.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Neo";
+    src: url("/assets/fonts/NeoSans/NeoSansStdRegular.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url("/assets/fonts/Teko/Teko-Regular.ttf") format("ttf");
+}
+
+
+
+.fontMuli {
+    font-family: "Muli";
+}
+
+.fontHelvetica {
+    font-family: Helvetica;
+}
+
+.fontMeta {
+    font-family: "Meta";
+}
+
+.fontNeo {
+    font-family: "Neo";
+}
+
+.fontTeko {
+    font-family: "Teko";
+}
+
+
+
 .dark-blue{
     background-color: #00155A;
 }
