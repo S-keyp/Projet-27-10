@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Muli";
+    src: url(../../Charte-graphique/assets/fonts/muli/Muli.ttf);
+}
+
+@font-face {
+    font-family: "Neo";
+    src: url(../../Charte-graphique/assets/fonts/NeoSans/NeoSansStdRegular.otf);
+}
+
+* {
+    font-family: Muli;
+}
+
+p {
+    font-size: 30px;
+}
+
+.textcoloract {
+    color: #fa5716;
+}
+
+.textcolordev {
+    color: #025CBB;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/assets/img/photovoltaic-system-g6548cd95f_1920.jpg);
+}
+
+.box-about {
+    display: flex;
+    flex-wrap: wrap;
+    filter: blur(0px);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.637); 
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    margin: 100px;
+}
+
+.fondateurs {
+   display: flex; 
+   min-height: 100vh;
+}
+
+.box-fondateurs {
+    min-height: 100vh;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #fa5716;
+    text-align: center;
+    color: antiquewhite;
+    position: relative;
+}
+
+.image-fondateurs {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    width: 50%;
+}
+
+.activites {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/assets/img/panneaux-solaires-photovoltaiques.jpg);
+}
+
+.box-activites {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.637); 
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin: 100px;
+}
+
+.recherchedev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box-recherchedev {
+    display: flex;
+    min-height: 100vh;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #fa5716;
+    text-align: center;
+    color: antiquewhite;
+    position: relative;
+}
+
+.image-rd {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+
+.title-localisation {
+    background-color: #aaaaaa;
+    text-align: center;
+}
+
+
+.localisation {
+    display: flex;
+}
