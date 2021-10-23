@@ -1,88 +1,16 @@
 @font-face {
     font-family: "Muli";
-    src: url(/assets/fonts/Muli.ttf);
-}
-
-@font-face {
-    font-family: "Meta";
-    src: url(/assets/fonts/Meta/meta-normal.ttf);
+    src: url(/Charte-graphique/assets/fonts/muli/Muli.ttf);
 }
 
 @font-face {
     font-family: "Neo";
-    src: url(/assets/fonts/NeoSans/NeoSansStdRegular.otf);
+    src: url(/Charte-graphique/assets/fonts/NeoSans/NeoSansStdRegular.otf);
 }
 
-@font-face {
-    font-family: "Teko";
-    src: url(/assets/fonts/Teko/Teko-Regular.ttf);
-}
-
-p{
-    margin-left: 60px;
-    font-size: 1.5rem;
-}
-
-.fontMuli {
-    font-family: Muli;
-}
-
-.fontHelvetica {
-    font-family: Helvetica;
-}
-
-.fontMeta {
-    font-family: Meta;
-}
-
-.fontNeo {
-    font-family: Neo;
-}
-
-.fontTeko {
-    font-family: Teko;
-}
-
-
-
-.dark-blue{
-    background-color: #00155A;
-}
-
-.orange{
-    background-color: #FA5716;
-}
-
-.bleu{
-    background-color: #025CBB;
-}
-
-.blanc{
-    background-color: #F6F6F6;
-}
-
-.vert{
-    background-color: #529E30;
-}
-
-.gradien-orange{
-    background: linear-gradient(to bottom right, #d15c0b 0, #db6f0d 25%, #db6f0d 75%, #d15c0b 100%);
-}
-
-.orange-leger{
-    background-color: #f5872d;
-}
-
-.autre-orange{
-    background-color: #f5812b;
-}
-
-.bleu-leger{
-    background-color: #F2F7FF;
-}
-
-body{
-    background-color: #fff;
+a{
+    display: block;
+    text-decoration: none;
 }
 
 .flex{
@@ -92,48 +20,10 @@ body{
     flex-wrap: wrap;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
+div.flex img.icon{
+    padding: 0 10px;
 }
 
-.cta.first, .cta.second, .cta.third{
-    margin: 10px 25px;
-    font-weight: 600;
-    display: flex;
-}
-
-div.flex div.flex{
-    margin: 10px 20px;
-}
-
-img{
-    margin-left: 5px;
-}
-
-.logo img{
-    width: 40%;
-}
-
-.first{
-    background-color: #025CBB;
-    color: #fff;
-    border-radius: 50px;
-    padding: 15px;
-}
-
-.second{
-    background-color: #f5812b;
-    border-radius: 10px 100px / 120px;
-    color: #fff;
-    padding: 15px;
-
-}
-
-.third{
-    background-color: #529E30;
-    padding: 15px;   
-    border-radius: 5px 50px;
-    color: #fff;
-
+p{
+    font-family: Muli, tahoma, helvetica, sans-serif;
 }
