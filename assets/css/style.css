@@ -57,6 +57,7 @@ a{
     background-color: #529E30;
     padding: 15px;   
     border-radius: 5px 50px;
+    opacity: .9;
 }
 
 .cta-std a{
@@ -98,10 +99,62 @@ section div img{
     padding: .2rem 1rem;
 }
 
+.second-row{
+    margin: auto;
+}
+
 img.logo{
     max-width: 9rem;
     max-height: 9rem;
 }
 
+.overlaping-box{
+    transform: translateX(7%);
+    z-index: -1;
+}
 
+.bgc-pict{
+    height: 60vh;
+    background-image: url(../img/photovoltaic-system-g6548cd95f_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.second-bgc-pict{
+    height: 60vh;
+    background-image: url(../img/La-production-denergie-solaire-un-investissement-rentable.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text-over-bgc-pict{
+    width: 80%;
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 1.5rem;
+}
+
+.text-over-bgc-pict h2, .text-over-bgc-pict p, .text-over-bgc-pict li{
+    color: #fff;
+    padding: 0.2rem 0.3rem;
+}
+
+#map-leaflet{
+    width: 500px;
+    height: 350px;
+    background-color: blue;
+    margin: 15px 0;
+}
+
+section div div .img-spe{
+    max-height: 250px;
+    max-width: 250px;
+    padding: 50px;
+}
+
+.partner-row{
+    justify-content: center;
+}
 /* FOOTER */
