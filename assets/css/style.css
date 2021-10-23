@@ -7,7 +7,16 @@
     font-family: "Neo";
     src: url(/Charte-graphique/assets/fonts/NeoSans/NeoSansStdRegular.otf);
 }
+/* HEADER */
 
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* MAIN */
 a{
     display: block;
     text-decoration: none;
@@ -25,5 +34,7 @@ div.flex img.icon{
 }
 
 p{
-    font-family: Muli, tahoma, helvetica, sans-serif;
+    font-family: Muli, helvetica, sans-serif;
 }
+
+/* FOOTER */
