@@ -13,28 +13,95 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
     list-style: none;
 }
-/* MAIN */
+
 a{
-    display: block;
     text-decoration: none;
 }
 
-.flex{
+/* CAROUSEL */
+#carouselMain img {
+    position: relative;
+    z-index: -1;
+    height: 50vh;
+}
+
+#carouselMain span{
+    position: absolute;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    /* si on veut une seul span mettre -50%,-50% sur le translate */
+    transform: translate(-80%,-100%);
+    padding: 0.5rem;
+    border-radius:0.5rem;
+    background-color: rgb(0,0,0,0.5);
+    backdrop-filter: blur(2px);
+}
+
+#carouselMain span.second-span{
+    transform: translate(-60%,-10%);
+}
+
+/* CTA STD */
+.cta-std{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 10px 25px;
+    font-weight: 600;
+    background-color: #529E30;
+    padding: 15px;   
+    border-radius: 5px 50px;
 }
 
-div.flex img.icon{
-    padding: 0 10px;
+.cta-std a{
+    color: #fff;
+    padding: 0.3rem;
 }
 
-p{
-    font-family: Muli, helvetica, sans-serif;
+.cta-std img{
+    margin-left: 5px;
 }
+
+.cta-right{
+    margin-left: 60%;
+}
+
+/* MAIN CONTENT */
+section.container-fluid.row{
+    margin: 1.5rem 0;
+}
+
+section h2{
+    font-family: Neo, sans-serif;
+}
+
+section aside{
+    font-family: Muli, sans-serif;
+}
+
+section div img{
+    max-width: 100%;
+}
+
+.orange-box{
+    background-color: #FA5716;
+    border-radius: .5rem;
+}
+
+.orange-box aside, .orange-box h2{
+    padding: .2rem 1rem;
+}
+
+img.logo{
+    max-width: 9rem;
+    max-height: 9rem;
+}
+
 
 /* FOOTER */
