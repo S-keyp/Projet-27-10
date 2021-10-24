@@ -21,6 +21,7 @@ p {
 
 .textcoloract {
     color: #fa5716;
+    
 }
 
 .textcolordev {
@@ -99,8 +100,9 @@ p {
     color: antiquewhite;
 }
 
-.image-rd {
-    width: 50%;
+.image-rd img{
+    transform: translate(-5%, 25%);
+    width: 90%;
 }
 
 
