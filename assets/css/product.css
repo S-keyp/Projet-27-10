@@ -1,0 +1,25 @@
+/* CAROUSEL */
+#carouselMain img {
+    position: relative;
+    z-index: -1;
+    height: 50vh;
+}
+
+#carouselMain span{
+    position: absolute;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    /* si on veut une seul span mettre -50%,-50% sur le translate */
+    transform: translate(-80%,-100%);
+    padding: 0.5rem;
+    border-radius:0.5rem;
+    background-color: rgb(0,0,0,0.5);
+    backdrop-filter: blur(2px);
+}
+
+#carouselMain span.second-span{
+    transform: translate(-60%,-10%);
+}

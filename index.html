@@ -4,25 +4,25 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS only -->
+        <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- leaflet css -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="assets/js/index.js"></script>
+        <!-- My scripts and styles -->
+        
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Sunpower</title>
     </head>
     <body>
         <header>
 
         </header>
-
-
-
-
-
-
-
+    
         <main>
             <!-- Carousel -->
             <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
@@ -58,6 +58,7 @@
                 </button>
             </div> 
 
+            <!-- Section start -->
             <section class="container-fluid row">
                 <div class="col-4 align-self-center">
                     <img src="assets/img/ombrieresolaire.jpg" alt="ombriere solaire">
@@ -90,40 +91,95 @@
                 </div>
             </section>
 
-
-
-
-
-
-
-
+            <section class="container-fluid bgc-pict row">
+                <div class="container text-over-bgc-pict mx-auto align-self-center row">
+                    <div class="col-7 align-self-center">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>
+                            Se rentabilise en moins de 15ans
+                            Fait économiser immédiatement de l'argent => en effet, une petite partie de l'électricité produite est utilisé pour la voiture,
+                            le reste est utilisé pour la maison.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos aliquam laboriosam quae quas veniam est itaque consequuntur ex, 
+                            impedit non voluptatum tempora ut! Quidem consectetur commodi voluptatum similique obcaecati, cumque nihil minus a delectus.
+                        </p>
+                    </div>
+                    <div class="col-5 align-self-center text-center">
+                        <img src="assets/img/Sustainability.jpg" class="logo" alt="">
+                    </div>
+                </div>
+            </section>
 
             <section class="container-fluid row">
-                <div class="col-8 orange-box">
+                <div class="col-7 orange-box overlaping-box">
                     <h2>Ils nous ont fait confiance</h2>
                     <aside>
                         L’opposition est une partie naturelle de la vie. Tout comme nous développons nos muscles en soulevant des poids, nous développons notre caractère en surmontant des défis et des adversités.”
                         -Stephen R Covey-
-                        
+                        <br>
                         Et c'est notamment grace à nos tous premiers partenaires que nous avons réussi à aller aussi loin. 
                         C'est pourquoi nous souhaitions les remercier particulièrement pour leurs investissement depuis la première seconde et tout au long de notre parcours!   
                     </aside>
                 </div>
-                <div class="col-4 align-self-center text-center row">
+                <div class="col-5 align-self-center row">
                     <div class="row">
-                        <img class="logo col-12" src="assets/img/logo/logo_mtp.jpg" alt="ombriere solaire">
+                        <img class="logo mx-auto" src="assets/img/logo/logo_mtp.jpg" alt="ombriere solaire">
                     </div>
-                    <div class="row">
+                    <div class="row second-row">
                         <img class="logo col-6 align-center" src="assets/img/logo/ademe-logo.jpg" alt="ombriere solaire">
                         <img class="logo col-6 align-center" src="assets/img/logo/Region-Occitanie.png" alt="ombriere solaire">
                     </div>
                 </div>
             </section>
 
+            <section class="container-fluid second-bgc-pict row">
+                <div class="container text-over-bgc-pict mx-auto align-self-center row">
+                    <div class="align-self-center">
+                        <h2>Nos activités principales sont :</h2>
+                        <ul>
+                            <li>
+                                La R&D  <span>En savoir plus</span>                      
+                            </li>
+                            <li>                   
+                                L’aide aux montages de projets à destination des entreprises et des collectivités    <span>En savoir plus</span>
+                            </li>
+                            <li>                    
+                                La commercialisation des ombrières solaires auprès des entreprises, collectivités et particuliers   <span>En savoir plus</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-fluid row">
+                <h2 class="text-center">Nos implantations</h2>
+                <div class="container mx-auto" id="map-leaflet">
+                    
+                </div>
+            </section>
+
+            <section class="container-fluid">
+                <div class="container text-center">
+                    <h2>Nos partenaires</h2>
+                    <div class="row partner-row">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/ademe-logo.jpg" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/conseil départemental_Logo34.jpg" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/Groupe_PSA-Logo.wine.png" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/logo-cea.png" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/logo-herault.jpg" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/Logo_INES_300dpi.jpg" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/logo_mtp.jpg" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/Logo_Région_Occitanie.png" alt="">
+                        <img class="col-2 col-md-4 img-spe d-block" src="assets/img/logo/TLSE-METROPOLE-logo.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            
         </main>
-
-
-
 
 
 
@@ -131,11 +187,10 @@
         <footer>
 
         </footer>
-        <!-- <div class="flex">
-            <a class="flex" href="#">
-                Cliquer ici
-                <img class="icon" src="Charte-graphique/assets/img/arrow-right-circle.svg" alt="">
-            </a>  
-        </div> -->
+        <!-- leaflet Js -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <script src="assets/js/index.js"></script>
     </body>
 </html>
