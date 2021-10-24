@@ -1,4 +1,29 @@
+/*GENERAL*/
+
+@font-face {
+    font-family: "Muli";
+    src: url(../../Charte-graphique/assets/fonts/muli/Muli.ttf);
+}
+
+@font-face {
+    font-family: "Neo";
+    src: url(../../Charte-graphique/assets/fonts/NeoSans/NeoSansStdRegular.otf);
+}
+
+* {
+    font-family: Muli;
+}
+
+p {
+    font-size: 25px;
+}
+
+.textcolorombriere {
+    color: #fa5716;
+}
+
 /* CAROUSEL */
+
 #carouselMain img {
     position: relative;
     z-index: -1;
@@ -22,4 +47,92 @@
 
 #carouselMain span.second-span{
     transform: translate(-60%,-10%);
+}
+
+/*STRATEGIE DE DEVELOPPEMENT*/
+
+.stratdev {
+    margin: 0;
+    margin-top: 20px;
+    min-height: 100vh;
+    background-image: url(/assets/img/panneaux4.webp);
+}
+
+.box-stratdev {
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.637); 
+    color: #fff;
+}
+
+/*INFORMATIONS PRODUITS*/
+
+.infoproduit {
+    margin: 0; 
+    min-height: 100vh;
+}
+
+.box-infoproduit {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fa5716;
+    color: #fff;
+}
+
+.image-infoproduit img{
+    width: 75%;
+}
+
+/*PARTENARIAT*/
+
+.partenariat {
+    margin: 0; 
+    min-height: 100vh;
+}
+ 
+ .box-partenariat {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fa5716;
+    color: #fff;
+}
+
+ .image-one-partenariat img{
+    transform: translate(-15%, 15%);
+    width: 90%;
+}
+ 
+ .image-two-partenariat img{
+    transform: translateY(-75%);
+    width: 90%;
+}
+ 
+ .image-three-partenariat img{
+    width: 90%;
+}
+
+/*OMBRIERES*/
+
+.ombrieres {
+    margin: 0;
+    margin-top: 20px;
+    min-height: 100vh;
+    background-image: url(/assets/img/panneaux4.jpg);
+}
+
+.box-ombrieres {
+    margin: 0;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff; 
+}
+
+.ombrieres-service{
+    padding: 10px;
+    border: solid black 2px;
+}
+
+.ombrieres-service img{
+    width: 50%;
 }
