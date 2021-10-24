@@ -1,3 +1,6 @@
+/*GENERAL*/
+
+
 @font-face {
     font-family: "Muli";
     src: url(../../Charte-graphique/assets/fonts/muli/Muli.ttf);
@@ -13,7 +16,7 @@
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .textcoloract {
@@ -24,97 +27,93 @@ p {
     color: #025CBB;
 }
 
+
+/*A-PROPOS*/
+
+
 .about {
-    display: flex;
-    width: 100%;
+    margin: 0;
     min-height: 100vh;
     background-image: url(/assets/img/photovoltaic-system-g6548cd95f_1920.jpg);
 }
 
 .box-about {
-    display: flex;
-    flex-wrap: wrap;
-    filter: blur(0px);
+    backdrop-filter: blur(2px);
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.637); 
     color: antiquewhite;
-    text-align: center;
-    align-items: center;
     padding: 50px;
-    margin: 100px;
 }
 
+
+/*FONDATEURS*/
+
+
 .fondateurs {
-   display: flex; 
+   margin: 0; 
    min-height: 100vh;
 }
 
 .box-fondateurs {
-    min-height: 100vh;
-    width: 50%;
     border-radius: 20px;
-    background-color: #fa5716;
-    text-align: center;
     color: antiquewhite;
-    position: relative;
+    background-color: #fa5716;
 }
 
-.image-fondateurs {
-    position: absolute;
-    left: 300px;
-    top: 100px;
+
+.image-fondateurs img{
+    transform: translate(25%, -25%);
     width: 50%;
 }
+
+
+/*ACTIVITES*/
+
 
 .activites {
-    margin-top: 200px;
-    display: flex;
-    width: 100%;
+    margin: 0;
     min-height: 100vh;
     background-image: url(/assets/img/panneaux-solaires-photovoltaiques.jpg);
 }
 
 .box-activites {
-    display: flex;
-    flex-wrap: wrap;
+    backdrop-filter: blur(2px);
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.637); 
     color: antiquewhite;
-    text-align: center;
-    align-items: center;
     padding: 30px;
-    margin: 100px;
 }
 
+
+/*R&D*/
+
+
 .recherchedev {
-    display: flex;
-    flex-direction: row-reverse;
+   margin: 0; 
+   min-height: 100vh;
 }
 
 .box-recherchedev {
-    display: flex;
-    min-height: 100vh;
-    width: 50%;
     border-radius: 20px;
     background-color: #fa5716;
-    text-align: center;
     color: antiquewhite;
-    position: relative;
 }
 
 .image-rd {
-    position: absolute;
-    right: 300px;
-    top: 100px;
+    width: 50%;
 }
+
+
+/*LOCALISATION*/
 
 
 .title-localisation {
     background-color: #aaaaaa;
     text-align: center;
+    border-radius: 20px;
 }
 
-
 .localisation {
-    display: flex;
+    margin: 0;
+    min-height: 100vh;
 }
