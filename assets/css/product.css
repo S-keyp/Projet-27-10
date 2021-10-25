@@ -2,12 +2,7 @@
 
 @font-face {
     font-family: "Muli";
-    src: url(../../Charte-graphique/assets/fonts/muli/Muli.ttf);
-}
-
-@font-face {
-    font-family: "Neo";
-    src: url(../../Charte-graphique/assets/fonts/NeoSans/NeoSansStdRegular.otf);
+    src: url(../fonts/muli/Muli.ttf);
 }
 
 * {
