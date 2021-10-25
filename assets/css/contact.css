@@ -13,7 +13,7 @@
   body,
   html {
 	height: 100%;
-	font-family: Muli, sans-serif;
+	font-family: Muli, Arial, Helvetica, sans-serif;
 	background-color: white;
   }
   
@@ -31,30 +31,30 @@
   }
   
   .valid-feedback {
-	color: #025cbb;
+	color: #529E30;
   }
   
   .form-select.is-valid,
   .was-validated .form-select:valid {
-	border-color: #025cbb;
+	border-color: #529E30;
   }
   
   .form-select.is-valid,
   .was-validated .form-select:valid:focus {
-	border-color: #025cbb;
+	border-color: #529E30;
   }
   
   .form-control.is-valid,
   .was-validated .form-control:valid {
-	border-color: #025cbb;
+	border-color: #529E30;
   }
   .form-control.is-valid,
   .was-validated .form-control:valid:focus {
-	border-color: #025cbb;
+	border-color: #529E30;
   }
   .form-check-input.is-valid ~ .form-check-label,
   .was-validated .form-check-input:valid ~ .form-check-label {
-	color: #025cbb;
+	color: #529E30;
   }
     
   .form-control::placeholder {
@@ -73,7 +73,7 @@
 	width: 120px;
 	height: 1px;
 	display: inline-block;
-	background: #025cbb;
+	background: #529E30;
 	margin: 4px 10px;
   }
   .section-title h2 {
@@ -155,7 +155,7 @@
   }
   
   .sun-form-btn:hover {
-	background-color: #025cbb;
+	background-color: #529E30;
   }
   
   .sun-form-btn:hover i {
