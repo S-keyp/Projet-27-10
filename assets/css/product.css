@@ -13,6 +13,10 @@ p {
     font-size: 25px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .textcolorombriere {
     color: #fa5716;
 }
@@ -44,21 +48,32 @@ p {
     transform: translate(-60%,-10%);
 }
 
-/*STRATEGIE DE DEVELOPPEMENT*/
+/*OMBRIERES*/
 
-.stratdev {
+.ombrieres {
     margin: 0;
     margin-top: 20px;
     min-height: 100vh;
-    background-image: url(/assets/img/panneaux4.webp);
+    background-image: url(/assets/img/panneaux4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.box-stratdev {
+.box-ombrieres {
+    margin: 0;
     padding: 30px;
-    backdrop-filter: blur(2px);
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.637); 
-    color: #fff;
+    background-color: #fff; 
+}
+
+.ombrieres-service{
+    padding: 10px;
+    border: solid black 2px;
+}
+
+.ombrieres-service img{
+    width: 50%;
 }
 
 /*INFORMATIONS PRODUITS*/
@@ -77,6 +92,26 @@ p {
 
 .image-infoproduit img{
     width: 75%;
+}
+
+/*STRATEGIE DE DEVELOPPEMENT*/
+
+.stratdev {
+    margin: 0;
+    margin-top: 20px;
+    min-height: 100vh;
+    background-image: url(/assets/img/panneaux4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-stratdev {
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.637); 
+    color: #fff;
 }
 
 /*PARTENARIAT*/
@@ -107,27 +142,4 @@ p {
     width: 90%;
 }
 
-/*OMBRIERES*/
 
-.ombrieres {
-    margin: 0;
-    margin-top: 20px;
-    min-height: 100vh;
-    background-image: url(/assets/img/panneaux4.jpg);
-}
-
-.box-ombrieres {
-    margin: 0;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: #fff; 
-}
-
-.ombrieres-service{
-    padding: 10px;
-    border: solid black 2px;
-}
-
-.ombrieres-service img{
-    width: 50%;
-}
