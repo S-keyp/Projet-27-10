@@ -6,11 +6,15 @@
 }
 
 * {
-    font-family: Muli;
+    font-family: Muli, Arial, Helvetica, sans-serif;
 }
 
 p {
     font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .textcolorombriere {
@@ -44,21 +48,32 @@ p {
     transform: translate(-60%,-10%);
 }
 
-/*STRATEGIE DE DEVELOPPEMENT*/
+/*OMBRIERES*/
 
-.stratdev {
+.ombrieres {
     margin: 0;
     margin-top: 20px;
     min-height: 100vh;
-    background-image: url(/assets/img/panneaux4.webp);
+    background-image: url(/assets/img/panneaux4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.box-stratdev {
+.box-ombrieres {
+    margin: 0;
     padding: 30px;
-    backdrop-filter: blur(2px);
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.637); 
-    color: #fff;
+    background-color: #fff; 
+}
+
+.ombrieres-service{
+    padding: 10px;
+    border: solid black 2px;
+}
+
+.ombrieres-service img{
+    width: 50%;
 }
 
 /*INFORMATIONS PRODUITS*/
@@ -77,6 +92,26 @@ p {
 
 .image-infoproduit img{
     width: 75%;
+}
+
+/*STRATEGIE DE DEVELOPPEMENT*/
+
+.stratdev {
+    margin: 0;
+    margin-top: 20px;
+    min-height: 100vh;
+    background-image: url(/assets/img/panneaux4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-stratdev {
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.637); 
+    color: #fff;
 }
 
 /*PARTENARIAT*/
@@ -107,27 +142,65 @@ p {
     width: 90%;
 }
 
-/*OMBRIERES*/
+/* FOOTER */
 
-.ombrieres {
+.f-infos {
     margin: 0;
-    margin-top: 20px;
-    min-height: 100vh;
-    background-image: url(/assets/img/panneaux4.jpg);
+    padding: 20px;
+    color: #fff;
+    background-color: #fa5716;
 }
 
-.box-ombrieres {
+.f-infos h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.f-infos ul {
+    text-align: center;
+    padding: 0;
+    line-height: 1.7;
+}
+
+.f-infos a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.f-infos a:hover {
+    opacity: 1;
+    transition: 0.20s ease;
+    font-size: 16px;
+}
+
+.l-linkedin {
+    width: 25%;
+}
+
+.button-footer {
     margin: 0;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: #fff; 
+    background-color: #fa5716;
 }
 
-.ombrieres-service{
-    padding: 10px;
-    border: solid black 2px;
+.button-footer a {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 50px;
 }
 
-.ombrieres-service img{
-    width: 50%;
+.f-policy {
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    background-color: #fa5716;
+    text-align: center;
+}
+
+.f-policy a {
+    text-decoration: none;
+    color: #fff;
 }
