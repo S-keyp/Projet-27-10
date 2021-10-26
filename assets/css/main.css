@@ -374,7 +374,6 @@
   }
   
   .orange-box {
-    background-color: var(--primary-color);
     border-radius: 0.5rem;
   }
   
@@ -382,7 +381,58 @@
   .orange-box h2 {
     padding: 0.2rem 1rem;
   }
+
+  .orange-box h2 {
+    color: var(--primary-color);
+  }
   
+  .orange-box aside {
+    color: #5c5c5c;
+  }
+
+  .rentabilite {
+    padding: 20px;
+  }
+
+  .box-rentabilite h2 {
+    color: var(--secondary-color);
+  }
+
+  .box-rentabilite p {
+    color: #fff;
+  }
+
+  .box-rentabilite ul {
+    color: #fff;
+  }
+
+  /*ACTIVITES*/
+
+  .activites {
+    margin: 0;
+    min-height: 60vh;
+    background-image: url(/assets/img/accueil/panneaux-solaires-photovoltaiques.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .box-activites {
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: #fff;
+    padding: 30px;
+  }
+
+  .box-activites h2 {
+    color: var(--secondary-color);
+  }
+
+  .box-activites a:link {
+    text-decoration: none;
+  }
+
   .second-row {
     margin: auto;
     justify-content: center;
@@ -406,14 +456,6 @@
     background-attachment: fixed;
   }
   
-  .second-bgc-pict {
-    height: 60vh;
-    background-image: url(../img/accueil/panneaux-solaires-photovoltaiques.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
   .text-over-bgc-pict {
     width: 80%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -424,7 +466,6 @@
   .text-over-bgc-pict h2,
   .text-over-bgc-pict p,
   .text-over-bgc-pict li {
-    color: #fff;
     padding: 0.2rem 0.3rem;
   }
   
@@ -443,17 +484,19 @@
     justify-content: center;
   }
   /*-------------------------------------------------------------- # A PROPOS --------------------------------------------------------------*/
+  
   .textcoloract {
     color: var(--primary-color);
   }
-  
+
   .textcolordev {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
   }
   
   .about {
     margin: 0;
-    min-height: 100vh;
+    min-height: 60vh;
+    padding: 20px;
     background-image: url(/assets/img/accueil/photovoltaic-system-g6548cd95f_1920.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -472,56 +515,87 @@
   
   .fondateurs {
     margin: 0;
-    min-height: 100vh;
+    min-height: 60vh;
   }
   
   .box-fondateurs {
     padding: 30px;
     border-radius: 20px;
-    color: #fff;
-    background-color: var(--primary-color);
   }
   
+  .box-fondateurs h2 {
+    color: var(--primary-color);
+  }
+
+  .box-fondateurs p {
+    color: #5c5c5c;
+  }
+
+  .box-fondateurs li {
+    font-size: 1.5rem;
+  }
+
   .image-fondateurs img {
-    transform: translate(25%, -25%);
-    width: 50%;
+    width: 75%;
   }
   
-  /*ACTIVITES*/
+  /* VEHICULE ELECTRIQUE DESCRIPTION */
   
-  .activites {
+  .vehicule-desc {
     margin: 0;
-    min-height: 100vh;
-    background-image: url(/assets/img/accueil/panneaux-solaires-photovoltaiques.jpg);
+    min-height: 70vh;
+    padding: 20px;
+    background-image: url(/assets/img/about/JM-8993.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  
-  .box-activites {
+
+  .box-vehiculedesc {
     backdrop-filter: blur(2px);
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.637);
     color: #fff;
-    padding: 30px;
   }
   
+  .box-vehiculedesc h2, h3 {
+    color: var(--secondary-color);
+  }
+
+  .box-vehiculedesc ul {
+    font-size: 1.3rem;
+  }
+  
+  .caracteristiques {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+  }
+
+  .box-vehiculedesc a {
+    text-decoration: none;
+  }
+
   /*R&D*/
   
   .recherchedev {
     margin: 0;
-    min-height: 100vh;
+    min-height: 50vh;
   }
   
   .box-recherchedev {
     padding: 30px;
     border-radius: 20px;
-    background-color: var(--primary-color);
-    color: #fff;
   }
   
+  .box-recherchedev h2 {
+    color: var(--primary-color);
+  }
+
+  .box-recherchedev p {
+    color: #5c5c5c;
+  }
+
   .image-rd img {
-    transform: translate(-5%, 25%);
     width: 90%;
   }
   
@@ -530,12 +604,16 @@
   .title-localisation {
     background-color: #aaaaaa;
     text-align: center;
-    border-radius: 20px;
+    padding: 10px;
   }
   
+  .box-localisation {
+    font-size: 1.45rem;
+  }
+
   .localisation {
     margin: 0;
-    min-height: 100vh;
+    min-height: 50vh;
   }
   
   /*-------------------------------------------------------------- # PRODUIT --------------------------------------------------------------*/
@@ -577,6 +655,7 @@
     margin: 0;
     margin-top: 20px;
     min-height: 100vh;
+    padding: 20px;
     background-image: url(/assets/img/product/panneaux4.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -589,7 +668,7 @@
     border-radius: 20px;
     background-color: #fff;
   }
-  
+
   .ombrieres-service {
     padding: 10px;
     border: solid black 2px;
@@ -603,26 +682,32 @@
   
   .infoproduit {
     margin: 0;
-    min-height: 100vh;
+    min-height: 60vh;
   }
   
   .box-infoproduit {
     padding: 30px;
     border-radius: 20px;
-    background-color: var(--primary-color);
-    color: #fff;
+  }
+
+  .box-infoproduit h2 {
+    color: var(--secondary-color);
   }
   
+  .box-infoproduit p {
+    color: #5c5c5c;
+  }
+
   .image-infoproduit img {
     width: 75%;
   }
-  
+
   /*STRATEGIE DE DEVELOPPEMENT*/
   
   .stratdev {
     margin: 0;
     margin-top: 20px;
-    min-height: 100vh;
+    min-height: 60vh;
     background-image: url(/assets/img/product/panneaux4.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -636,32 +721,57 @@
     background-color: rgba(0, 0, 0, 0.637);
     color: #fff;
   }
-  
-  /*PARTENARIAT*/
-  
-  .partenariat {
-    margin: 0;
-    min-height: 100vh;
+
+  .box-stratdev h2 {
+    color: var(--primary-color);
+  }
+
+  /* DOMAINES - STRATEGIE DE DEVELOPPEMENT */
+
+  .dom-stratdev1 {
+    padding: 30px;
+  }
+
+  .dom-stratdev2 {
+    padding: 30px;
   }
   
-  .box-partenariat {
-    padding: 30px;
+  .box-domstratdev1 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .box-domstratdev1 {
+    color: #5c5c5c;
+  }
+
+  .box-domstratdev h2 {
+    color: var(--primary-color);
+  }
+
+  .box-domstratdevalt h2 {
+    color: var(--secondary-color);
+  }
+
+  /* CONNAISSANCES */
+
+  .connaissances {
+    margin: 0;
+    min-height: 75vh;
+    padding: 20px;
+    background-image: url(/assets/img/product/panneaux2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .box-connaissances {
+    backdrop-filter: blur(2px);
     border-radius: 20px;
-    background-color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.637);
     color: #fff;
   }
-  
-  .image-one-partenariat img {
-    transform: translate(-15%, 15%);
-    width: 90%;
+
+  .pann-energ {
+    color: var(--primary-color);
   }
-  
-  .image-two-partenariat img {
-    transform: translateY(-75%);
-    width: 90%;
-  }
-  
-  .image-three-partenariat img {
-    width: 90%;
-  }
-  
