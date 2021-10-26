@@ -1,19 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
-        <link rel="stylesheet" href="assets/css/product.css">
-        <title>Page produit</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#fa5716">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Main CSS -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="assets/css/product.css"> -->
+        <title>Produit - SUNPOWER</title>
     </head>
     <body>
-
-        <h1>Nos produits</h1>
+    <!-- ======= Header Section ======= -->
+    <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img src="/assets/img/sunpower-logo.png" alt="" width="90" height="90">
+            </a>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li>
+                    <a href="index.html" class="nav-link px-2 link-dark">Accueil</a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-link px-2 link-dark">Mieux nous connaitre</a>
+                </li>
+                <li>
+                    <a href="product.html" class="nav-link active px-2 link-dark">Nos ombrières solaire</a>
+                </li>
+            </ul>
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2 sun-button">
+                    <a href="contact.html">Nous contacter</a>
+                </button>
+            </div>
+        </header>
+    </div>
+        <!-- <h1>Nos produits</h1> -->
 
         <main>
             <!-- Carousel -->
@@ -22,17 +53,17 @@
                     <div class="carousel-item active" data-bs-interval="7000">
                         <span>Tendu comme</span>
                         <span class="second-span">une crampe</span>
-                        <img src="assets/img/Carousel1.jpg" alt="Carousel slide 1" class="w-100">
+                        <img src="assets/img/accueil/Carousel1.jpg" alt="Carousel slide 1" class="w-100">
                     </div>
                     <div class="carousel-item" data-bs-interval="10000">
                         <span>Tendu comme</span>
                         <span class="second-span">une carpe</span>
-                        <img src="assets/img/Carousel2.jpg" alt="Carousel slide 2" class="w-100">
+                        <img src="assets/img/accueil/Carousel2.jpg" alt="Carousel slide 2" class="w-100">
                     </div>
                     <div class="carousel-item" data-bs-interval="10000">
                         <span>Tendu comme</span>
                         <span class="second-span">une lampe</span>
-                        <img src="assets/img/Carousel3.jpg" alt="Carousel slide 3" class="w-100">
+                        <img src="assets/img/accueil/Carousel3.jpg" alt="Carousel slide 3" class="w-100">
                     </div>
                 </div>
                 <!-- Carousel controls -->
@@ -51,9 +82,9 @@
             </div> 
         
             <section class="ombrieres container-fluid row">
-                <div class="box-ombrieres container align-self-center row">
+                <div class="box-ombrieres container align-self-center row bg-white">
                     <div class="ombrieres-service ombriere-particuliers col-4 align-self-center text-center">
-                        <img src="/assets/img/logement-durable-panneaux-photovoltaiques-energie-solaire-1200x900.jpg" alt="ombrieres pour les particuliers">
+                        <img src="/assets/img/product/logement-durable-panneaux-photovoltaiques-energie-solaire-1200x900.jpg" alt="ombrieres pour les particuliers">
                         <p>
                             Le solaire pour les particuliers
                         </p>
@@ -62,7 +93,7 @@
                         </span>
                     </div>
                     <div class="ombrieres-service ombriere-ent-coll-syn col-4 align-self-center text-center">
-                        <img src="/assets/img/extension-ombrieres-1024x511.jpg" alt="ombrieres pour entreprises/collectivités/syndicats">
+                        <img src="/assets/img/product/extension-ombrieres-1024x511.jpg" alt="ombrieres pour entreprises/collectivités/syndicats">
                         <p>
                             Le solaire pour les entreprises, collectivités et syndics
                         </p>
@@ -71,7 +102,7 @@
                         </span>
                     </div>
                     <div class="ombrieres-service ombriere-promoteurs col-4 align-self-center text-center">
-                        <img src="/assets/img/panneaux.jpg" alt="ombrieres pour les promoteurs">
+                        <img src="/assets/img/product/panneaux.jpg" alt="ombrieres pour les promoteurs">
                         <p>
                             Le solaire pour les investisseurs
                         </p>
@@ -84,7 +115,7 @@
         
             <section class="infoproduit container-fluid row">
                 <div class="image-infoproduit col-6 align-self-center text-center">
-                    <img src="/assets/img/solar-power-g069a87006_1920.jpg" alt="info-produit">
+                    <img src="/assets/img/product/solar-power-g069a87006_1920.jpg" alt="info-produit">
                 </div>
                 <div class="box-infoproduit col-6 align-self-center text-center">
                     <h2>Plus d'infos sur les produits?</h2>
@@ -149,84 +180,85 @@
 
         </main>
     
-        <footer>
-            <div class="f-infos container-fluid row">
-                <div class="f-social col-3">
-                    <h3>Retrouvez nous sur les réseaux sociaux</h3>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                LinkedIn<img class="l-linkedin" src="assets/img/logo/linkedin-logo-png-linkedin-icon-white.png" alt="logo-linkedin">
-                            </a>
-                        </li>
-                        <li>
-                            Et d'autres à venir...
-                        </li>                        
+    <!-- ======= FOOTER Section ======= -->
+    <div class="bg-footer">
+        <div class="container">
+            <footer class="row row-cols-auto row-cols-lg-5 py-5 my-5 border-top">
+                <div class="col">
+                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <img src="/assets/img/sunpower-logo.png" alt="" width="200" height="200">
+                    </a>
+                </div>
+
+                <div class="col">
+                    <h5>A propos</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="about.html#" class="nav-link p-0 text-muted">Nos
+                                fondateurs</a></li>
+                        <li class="nav-item mb-2"><a href="about.html#" class="nav-link p-0 text-muted">Nos
+                                partenaires</a></li>
+                        <li class="nav-item mb-2"><a href="about.html#" class="nav-link p-0 text-muted">News</a></li>
                     </ul>
                 </div>
-                <div class="f-about col-3">
-                    <h3>A propos de nous</h3>
-                    <ul>
-                        <li>
-                            <a href="#">Nos fondateurs</a>
-                        </li>
-                        <li>
-                            <a href="#">Nos partenaires</a>
-                        </li>
-                        <li>
-                            <a href="#">News</a>
-                        </li>
+
+                <div class="col">
+                    <h5>Nos produits</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Pour les
+                                particuliers</a></li>
+                        <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Pour les
+                                professionnels</a></li>
+                        <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Pour les
+                                investisseurs</a></li>
                     </ul>
                 </div>
-                <div class="f-product col-3">
-                    <h3>Nos produits et technologies</h3>
-                    <ul>
-                        <li> 
-                            <a href="#">Pour les particuliers</a>
-                        </li>
-                        <li>
-                            <a href="#">Pour les entreprises, collectivités et syndics</a>
-                        </li>
-                        <li>
-                            <a href="#">Pour les investisseurs</a>
-                        </li>
+
+                <div class="col">
+                    <h5>Contacter nous</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="tel:0467010203" class="nav-link p-0 text-muted">Téléphone: 04
+                                67 01 02 03</a></li>
+                        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Pour plus
+                                d'informations</a></li>
+                        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Service
+                                client</a></li>
                     </ul>
                 </div>
-                <div class="f-contact col-3">
-                    <h3>Contactez nous</h3>
-                    <ul>
-                        <li>
-                            Téléphone: XX XX XX XX XX
-                        </li>
-                        <li>
-                            Prendre rendez-vous avec un conseiller: <a href = "mailto: a@exemple.com">a@exemple.com</a>
-                        </li>
-                        <li>
-                            <a href="#">Faire une demande de devis</a>
-                        </li>
-                        <li>
-                            <a href="#">Service client</a>
-                        </li>
-                    </ul>                                       
+
+                <div class="col">
+                    <h5>Suivez-nous</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="https://www.linkedin.com/"
+                                class="nav-link p-0 text-muted">sur Linkedin</a></li>
+                        <li class="nav-item mb-2"><a href="https://www.linkedin.com/"
+                                class="d-flex align-items-center mb-3 link-dark text-decoration-none footer-no-hover">
+                                <img src="/assets/img/logo/linkedin-logo-png-linkedin-icon-white.png" alt=""
+                                    height="70">
+                            </a></li>
+                    </ul>
                 </div>
-            </div>
+            </footer>
             <div class="button-footer container-fluid row">
                 <div class="align-self-center text-center">
                     <a class="btn btn-light btn-outline-secondary" href="#" role="button">^</a>
                 </div>
             </div>
-            <div class="f-policy container-fluid row">
-                <div class="f-cookies col-4">
-                    <a href="#">Politique de cookies</a>
-                </div>
-                <div class="f-RGPD col-4">
-                    <a href="#">Politique RGPD</a>
-                </div>
-                <div class="f-cond-util col-4">
-                    <a href="#">Conditions d'utilisation</a>
-                </div>
+            <div class="footer-ml-center">
+                <ul class="nav d-inline-flex">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer-no-hover">Politique de
+                            cookies |</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer-no-hover">Politique RGPD
+                            |</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer-no-hover">Conditions
+                            d'utilisation</a></li>
+                </ul>
             </div>
-        </footer>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
 
-    </body>
 </html>
