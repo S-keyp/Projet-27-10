@@ -4,7 +4,7 @@
     --primary-color: #ff6600;
     --secondary-color: #669933;
     --tertiary-color: #0066cc;
-    --footer-background-color: #ffffff;
+    --quatro-color: #5c5c5c;
   }
   
   /*-------------------------------------------------------------- # Global --------------------------------------------------------------*/
@@ -66,7 +66,7 @@
   }
   
   .btn-outline-primary {
-    color: var(--primary-color);
+    background-color: var(--primary-color);
     border-color: var(--primary-color);
   }
   
@@ -77,7 +77,7 @@
   }
   
   .sun-button > a {
-    color: var(--primary-color);
+    color: white;
     text-decoration: none;
   }
   
@@ -275,7 +275,7 @@
   }
   
   .bg-footer {
-    background-color: var(--footer-background-color);
+    background-color: white;
   }
   
   .bg-footer h5 {
@@ -363,6 +363,10 @@
   .cta-right {
     margin-left: 60%;
   }
+
+  .sun-button-contact{
+    margin-left: 2%;
+  }
   
   /* MAIN CONTENT */
   section.container-fluid.row {
@@ -387,7 +391,7 @@
   }
   
   .orange-box aside {
-    color: #5c5c5c;
+    color: var(--quatro-color);
   }
 
   .rentabilite {
@@ -449,7 +453,6 @@
   }
   
   .bgc-pict {
-    height: 60vh;
     background-image: url(../img/accueil/photovoltaic-system-g6548cd95f_1920.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -475,9 +478,8 @@
   }
   
   section div div .img-spe {
-    max-height: 250px;
-    max-width: 250px;
-    padding: 50px;
+    max-width: 20%;
+    padding: 2%;
   }
   
   .partner-row {
@@ -487,6 +489,10 @@
   
   .textcoloract {
     color: var(--primary-color);
+  }
+
+  .textcoloract:hover {
+    color: var(--secondary-color);
   }
 
   .textcolordev {
@@ -527,12 +533,12 @@
     color: var(--primary-color);
   }
 
-  .box-fondateurs p {
-    color: #5c5c5c;
+  .box-fondateurs p{
+    color: var(--quatro-color);
   }
 
-  .box-fondateurs li {
-    font-size: 1.5rem;
+  .box-fondateurs li{
+    color: var(--quatro-color);
   }
 
   .image-fondateurs img {
@@ -592,7 +598,11 @@
   }
 
   .box-recherchedev p {
-    color: #5c5c5c;
+    color: var(--quatro-color);
+  }
+
+  .box-recherchedev li {
+    color: var(--quatro-color);
   }
 
   .image-rd img {
@@ -602,13 +612,17 @@
   /*LOCALISATION*/
   
   .title-localisation {
-    background-color: #aaaaaa;
+    color: var(--secondary-color);
     text-align: center;
     padding: 10px;
   }
   
   .box-localisation {
-    font-size: 1.45rem;
+    font-size: 1rem;
+  }
+
+  .box-localisation p{
+    color: var(--quatro-color);
   }
 
   .localisation {
@@ -695,7 +709,7 @@
   }
   
   .box-infoproduit p {
-    color: #5c5c5c;
+    color: var(--quatro-color);
   }
 
   .image-infoproduit img {
@@ -742,11 +756,11 @@
   }
 
   .box-domstratdev1 {
-    color: #5c5c5c;
+    color: var(--quatro-color);
   }
 
   .box-domstratdev h2 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
 
   .box-domstratdevalt h2 {
@@ -774,4 +788,12 @@
 
   .pann-energ {
     color: var(--primary-color);
+  }
+
+  .sun-implantation{
+    color: var(--primary-color);
+  }
+
+  .sun-partenaire{
+    color: var(--secondary-color);
   }
