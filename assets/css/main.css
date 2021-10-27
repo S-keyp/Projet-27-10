@@ -550,6 +550,8 @@
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.637);
     color: #fff;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
   
   .box-vehiculedesc h2, h3 {
